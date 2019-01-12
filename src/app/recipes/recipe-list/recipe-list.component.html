@@ -1,0 +1,16 @@
+<ng-template [ngIf]="true">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="btn btn-success" (click)="onNew()">
+                New Recipe
+            </div>
+        </div>
+    </div>
+    <hr>
+</ng-template>
+<div class="row">
+    <app-recipe-item 
+    *ngFor="let r of recipes" 
+    [recipe]="r"
+    ></app-recipe-item>
+</div>

@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+button{
+    margin: 4px 4px;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+input.ng-invalid.ng-touched {
+    border: 1px solid palevioletred;
+}
+  
+h3{
+    color: darkblue
+}
+
